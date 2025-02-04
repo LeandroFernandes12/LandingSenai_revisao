@@ -1,0 +1,242 @@
+/* Estilos Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-primaria: #F9003D; /* Vermelho SENAI */
+    --cor-secundaria: #A259F7; /* Roxo SENAI */
+    --cor-destaque: #FFAF00; /* Amarelo SENAI */
+    --fundo-escuro: #080324; /* Fundo escuro */
+    --texto-claro: #FFFFFF; /* Texto branco */
+    --texto-cinza: #C7BAB3; /* Texto cinza */
+}
+
+body {
+    background-color: var(--fundo-escuro);
+    color: var(--texto-claro);
+    font-family: 'Bebas Neue', sans-serif;
+    line-height: 1.6;
+    font-size: 18px; /* Tamanho da fonte base aumentado */
+}
+
+/* Container */
+
+/* Construir CSS restante (Aqui) */
+
+
+/* __________________________________________________________________ */
+/* Cabeçalho */
+header{
+    display: flex;
+    background-color: #F9003D;
+    height: 15vh;
+    width: 100%;
+}
+
+header img{
+    border: 0;
+    width: 70%;
+    height: 60%;
+    margin: 1rem;
+}
+
+.nav{
+    margin: 2rem;
+    margin-left: 55%;
+    border: 0;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+ul li a{
+    justify-content: space-between;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.contato{
+    background-color: #A259F7;
+    
+}
+
+
+/* ________________________________________________________________ */
+/* Sessão de banner */
+.banner{
+    background-image:url(../assets/imagem-fundo-banner.jpg);
+    background-repeat: 0;
+    text-align: center;
+    padding: 10rem;
+}
+
+h1{
+    font-size: 70px;
+}
+
+.texto {
+    padding: 10px
+}
+
+.linha{
+    border: 0;
+    color: #FFAF00;
+    margin: 20px;
+    padding: 1.5px;
+}
+
+h3{
+    color: #C7BAB3;
+}
+
+.mouse{
+    width: 7%;
+    height: 7%;
+}
+
+
+/* _____________________________________________________ */
+/* Sessão sobre */
+
+.about{
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    background-color:#181012;
+}
+
+.asset{
+    display: flex;
+    width: 40%;
+    height: 40%;
+    padding: 30px 0px 50px 20px;
+}
+
+.projetos{
+    align-content: center;
+    text-align: start;
+    display: flex;
+    margin-left: 140px;
+}
+
+.marrom{
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 130px;
+}
+
+.sobre{
+    padding-top: 10px;
+    color: #F9003D;
+    font-size: 20px;
+    text-align: center;
+}
+
+h4{
+    color: #FFAF00;
+}
+
+.description{
+    color: #C7BAB3;
+}
+
+/* __________________________________________________________________ */
+/* Sessão de endereço e detalhes */
+
+.detalhes{
+    display: flex;
+    margin-top: 30px;
+    padding: 60px;
+    flex-direction: row;
+    font-size: 25px;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.amarelo{
+    padding: 20px 80px 10px 80px;
+    color: #FFAF00;
+    
+}
+
+.branco{
+    font-size: 20px;
+    padding: 10px;
+    background-color: #080324;
+    border: solid 15px #241A1B;
+    border-radius: 10px;
+}
+
+.local{
+    background-color: #241A1B;
+    flex-direction: column;
+}
+
+.duracao{
+    background-color: #241A1B;
+    flex-direction: column;
+}
+
+.desafios{
+    background-color: #241A1B;
+    flex-direction: column;
+}
+
+.endereco {
+    display: flex;
+}
+
+.place{
+    display: flex;
+    padding: 70px;
+    flex-direction: column;
+}
+
+.title{
+    font-size: 40px;
+    text-align: center;
+    color: #F9003D;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.lcl{
+    font-size: 20px;
+}
+
+.mapa{
+    display: flex;
+    flex-direction: column;
+    margin-left: 500px;
+    margin-bottom: 50px;
+    width: 25%;
+    height: 25%;
+    border-radius: 10px;
+}
+
+/* _____________________________________________________________ */
+/* Rodapé */
+
+footer{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    background: #F9003D;
+}
+
+.footer-container{
+    color: #fff2e7;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
